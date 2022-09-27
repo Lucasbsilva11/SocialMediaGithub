@@ -85,6 +85,7 @@ body {
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.192);
     transition: all 0.4s ease-out;
     font-family: var(--fontebebas);
+    
 
   
 }
@@ -111,6 +112,7 @@ body {
 
 .container .button:nth-child(1):hover .icon{
     background-color: var(--Whatsapp);
+    
 }
 
 .container .button:nth-child(2):hover .icon{
@@ -212,5 +214,5 @@ footer a{
 
 footer a:hover {
     text-decoration: underline;
-    color: rgba(41, 152, 243, 0.979);
+    color: #2998f3fa;
 }
