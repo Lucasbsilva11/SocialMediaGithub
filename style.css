@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+:root{
+    --Whatsapp: #2CBF36;
+    --Linkedin: #0B6BBF;
+    --instagram: #e1306c;
+    --github: #333;
+    --Email: #1f9aff;
+    --dowload: #ff5608;
+
+    --fonte-padrao: arial, verdana, helvetica;
+    
+    --fontebebas: 'Bebas Neue', cursive;
+ 
+
+}
+
+
+*{
+    margin: auto;
+    padding: auto;
+   
+}
+
+
+
+main {
+    background-color: #b8b8b8;
+    padding: 30px;
+    padding-right: 10px;
+    border-radius: 10px 10px 0px 0px;
+
+    width: 320px;
+    margin-top: 25px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.377);
+    padding: 10px;
+    font-family: var(--fontebebas);
+    
+    font-size: 2em;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    display: flex;
+    padding: auto;
+    padding-right: 30px;
+     
+}
+
+
+body {
+    display: inline-block;
+    text-align: justify;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background-color: #4d4d4d;
+}
+
+
+/*  CONFIGURAÇÃO DOS BOTOES */
+
+.container .button{
+    display: list-item;
+    height: 60px;
+    width: 60px;
+    margin: 18px 7px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.192);
+    transition: all 0.4s ease-out;
+    font-family: var(--fontebebas);
+
+  
+}
+
+.container .button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50px;
+    transition: all 0.5s ease-out;
+
+}
+
+.container .button:hover{
+    width: 200px;
+
+}
+
+.container .button:hover .icon{
+    color: white
+}
+
+.container .button:nth-child(1):hover .icon{
+    background-color: var(--Whatsapp);
+}
+
+.container .button:nth-child(2):hover .icon{
+    background-color: var(--Linkedin);
+}
+
+.container .button:nth-child(3):hover .icon{
+    background-color: var(--instagram);
+}
+
+.container .button:nth-child(4):hover .icon{
+    background-color: var(--github);
+}
+
+.container .button:nth-child(5):hover .icon{
+    background-color: var(--Email);
+}
+
+.container .button:nth-child(6):hover .icon{
+    background-color: var(--dowload);
+}
+
+
+.container .button .icon {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.5 ease-out;
+    
+}
+
+.container .button span { 
+    font-size: 20px;
+    font-weight: 500px;
+    margin-left: 10px;
+    transition: all 0.5 ease-out;
+      
+   
+}
+
+ 
+
+.container .button:nth-child(1):hover a span {
+    color: var(--Whatsapp);
+    text-decoration: underline var(--Whatsapp);
+    font-family: var(--fontebebas);
+    
+
+}
+
+.container .button:nth-child(2):hover span{
+    color: var(--Linkedin);
+    text-decoration: underline var(--Linkedin);
+    font-family: var(--fontebebas);
+}
+
+.container .button:nth-child(3):hover span{
+    color: var(--instagram);
+    text-decoration: underline var(--instagram);
+    font-family: var(--fontebebas);
+    
+}
+
+.container .button:nth-child(4):hover span{
+    color: var(--github);
+    text-decoration: underline var(--github);
+    font-family: var(--fontebebas);
+}
+
+.container .button:nth-child(5):hover span{
+    color: var(--Email);
+    text-decoration: underline var(--Email);
+    font-family: var(--fontebebas);
+    
+}
+
+.container .button:nth-child(6):hover span{
+    color: var(--dowload);
+    text-decoration: underline var(--dowload);
+    font-family: var(--fontebebas);
+    
+}
+
+
+footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    font-family: var(--fonte-padrao);
+    font-size: small;
+    width: 320px;
+   
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgba(41, 152, 243, 0.979);
+}
