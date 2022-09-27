@@ -28,12 +28,20 @@
 
 
 
+
+
+
+
+
+/* All design menus */
+
+
 main {
     background-color: #b8b8b8;
     padding: 30px;
     padding-right: 10px;
     border-radius: 10px 10px 0px 0px;
-
+    box-shadow: 2px 4px 20px 10px rgba(0, 0, 0, 0.432);
     width: 320px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -53,10 +61,10 @@ h1 {
 
 img{
     width: 200px;
-    height: auto;
+    height: 200px;
     display: flex;
-    padding: auto;
     padding-right: 30px;
+    
      
 }
 
@@ -199,11 +207,12 @@ body {
 footer{
     background-color: black;
     color: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 21.1px;
     text-align: center;
     font-family: var(--fonte-padrao);
     font-size: small;
     width: 320px;
+    box-shadow: 2px 4px 20px 10px rgba(0, 0, 0, 0.432);
    
 }
 
@@ -216,3 +225,5 @@ footer a:hover {
     text-decoration: underline;
     color: #2998f3fa;
 }
+
+
