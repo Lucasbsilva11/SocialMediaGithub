@@ -35,8 +35,8 @@ main {
     border-radius: 10px 10px 0px 0px;
 
     width: 320px;
-    margin-top: 25px;
-    margin-bottom: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
 
@@ -199,7 +199,6 @@ footer{
     color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
-    border-radius: 0px 0px 10px 10px;
     font-family: var(--fonte-padrao);
     font-size: small;
     width: 320px;
